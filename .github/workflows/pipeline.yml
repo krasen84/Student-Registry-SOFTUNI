@@ -21,5 +21,7 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - name: Build the app 
-      run: npm install 
+      run: npm install
+    - name: Run Integration tests
+      run: npm test
 
